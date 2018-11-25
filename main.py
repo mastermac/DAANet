@@ -169,5 +169,5 @@ def test(config):
             metrics = evaluate(eval_file, answer_dict)
             with open(config.answer_file, "w") as fh:
                 json.dump(remapped_dict, fh)
-            print("Exact Match: {}, F1: {}".format(
-                metrics['exact_match'], metrics['f1']))
+            #print("Exact Match: {}, F1: {}".format(
+            #    metrics['exact_match'], metrics['f1']))
